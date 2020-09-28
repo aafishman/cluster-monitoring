@@ -60,8 +60,8 @@
   // Persistent volume configuration
   enablePersistence: {
     // Setting these to false, defaults to emptyDirs.
-    prometheus: false,
-    grafana: false,
+    prometheus: true,
+    grafana: true,
     // If using a pre-created PV, fill in the names below. If blank, they will use the default StorageClass
     prometheusPV: '',
     grafanaPV: '',
